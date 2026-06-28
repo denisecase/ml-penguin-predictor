@@ -6,6 +6,38 @@
 
 > Professional Python project: deploying and serving machine learning models.
 
+## Deployed to Render (Free, Credit Card required)
+
+Try it out - customize the request to see what species is predicted:
+
+```shell
+# PowerShell
+curl -X POST https://ml-penguin-predictor.onrender.com/predict `
+     -H "Content-Type: application/json" `
+     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+
+# macOS / Linux
+curl -X POST https://ml-penguin-predictor.onrender.com/predict \
+     -H "Content-Type: application/json" \
+     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+```
+
+## Deployed to HuggingFace (Free, no CC required)
+
+Try it out - customize the request to see what species is predicted:
+
+```shell
+# PowerShell
+curl -X POST https://denisecase-ml-penguin-predictor.hf.space/predict `
+     -H "Content-Type: application/json" `
+     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+
+# macOS / Linux
+curl -X POST https://denisecase-ml-penguin-predictor.hf.space/predict \
+     -H "Content-Type: application/json" \
+     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+```
+
 ## Project Description
 
 This project focuses on learning to deploy a trained model so others can use it.
