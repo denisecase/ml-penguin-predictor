@@ -1,4 +1,4 @@
-# ml-06-serving
+# ml-penguin-predictor
 
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
@@ -109,9 +109,9 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-06-serving
+git clone https://github.com/username/ml-penguin-predictor
 
-cd ml-06-serving
+cd ml-penguin-predictor
 code .
 ```
 
@@ -229,7 +229,7 @@ means it is ready to receive requests:
              Searching for package file structure from directories with __init__.py files
 | INFO | M06 | === RUN START ===
 | INFO | M06 | project=M06
-| INFO | M06 | repo_dir=ml-06-serving
+| INFO | M06 | repo_dir=ml-penguin-predictor
 | INFO | M06 | python=3.14.0
 | INFO | M06 | os=Windows 11
 | INFO | M06 | shell=powershell
@@ -237,7 +237,7 @@ means it is ready to receive requests:
 | INFO | M06 | github_actions=False
 | INFO | M06 | Loading model from: artifacts\model.joblib
 | INFO | M06 | Model loaded successfully
-             Importing from C:\Repos\ml\ml-06-serving\src
+             Importing from C:\Repos\ml\ml-penguin-predictor\src
 
     module   📁 mlstudio
              ├── 🐍 __init__.py
@@ -256,12 +256,12 @@ means it is ready to receive requests:
 
              Logs:
 
-      INFO   Will watch for changes in these directories: ['C:\\Repos\\ml\\ml-06-serving']
+      INFO   Will watch for changes in these directories: ['C:\\Repos\\ml\\ml-penguin-predictor']
       INFO   Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
       INFO   Started reloader process [31516] using WatchFiles
 | INFO | M06 | === RUN START ===
 | INFO | M06 | project=M06
-| INFO | M06 | repo_dir=ml-06-serving
+| INFO | M06 | repo_dir=ml-penguin-predictor
 | INFO | M06 | python=3.14.0
 | INFO | M06 | os=Windows 11
 | INFO | M06 | shell=powershell

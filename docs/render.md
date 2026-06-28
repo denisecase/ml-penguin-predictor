@@ -27,7 +27,7 @@ Update the `render.yaml` file in the root project folder.
 4. Render will detect `render.yaml` automatically and pre-fill the settings.
 5. Confirm the settings look correct and click **Deploy**.
 6. Wait for the build to complete (2–4 minutes first time).
-7. Render gives you a public URL like `https://ml-06-serving-xxxx.onrender.com`.
+7. Render gives you a public URL like `https://ml-penguin-predictor-xxxx.onrender.com`.
 
 ## Testing Your Deployment
 
